@@ -12,7 +12,7 @@ import { WelcomeComponent } from './home/welcome.component';
 import { PageNotFoundComponent } from './page-not-found.component';
 
 /* Feature Modules */
-import { ProductModule } from './products/product.module';
+// import { ProductModule } from './products/product.module';
 import { UserModule } from './user/user.module';
 import { MessageModule } from './messages/message.module';
 
@@ -21,7 +21,7 @@ import { MessageModule } from './messages/message.module';
     BrowserModule,
     HttpModule,
     InMemoryWebApiModule.forRoot(ProductData, { delay: 1000 }),
-    ProductModule,
+    // ProductModule,
     UserModule,
     MessageModule,
     AppRoutingModule // must be after any other modules with routing
